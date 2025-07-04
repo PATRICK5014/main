@@ -21,6 +21,57 @@ h2{
     font-size: 3.5rem;
 }
 /**Header**/
+.head{
+    background-image: url(/Evaluacion/recursos/img/header-bg-goinnova.jpg);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+.head img{
+    margin-top: 6rem;
+    width: 20rem;
+    flex-basis: 20%;
+    margin-left: 30rem;
+}
+
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-barra{
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5rem;
+}
+.subtitulo{ 
+    background-color: blue;
+    color:white;
+    display: flex;
+    justify-content: center;
+    font-size: x-small;
+    margin-top:60rem;
+    
+}
+.container-noticias{
+    display: flex;
+    flex-direction: row;
+    margin: 20rem;
+}
+.noticias{
+    display: flex;
+    flex-direction: column;
+}
+.noticas h1{
+    padding-right: 80rem;
+}
 
 
 
