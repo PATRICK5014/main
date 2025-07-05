@@ -60,6 +60,9 @@ h2{
     margin-top:60rem;
     
 }
+
+
+/**Noticias**/
 .container-noticias{
     display: flex;
     flex-direction: row;
@@ -75,9 +78,97 @@ h2{
 
 
 
-/**Noticias**/
-
-
 /**Main**/
+.container-main{
+    background-color: #f0f0f0;
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+   
+
+}
+.titulo{
+    display:flex;
+    flex-direction: column;
+    margin-left:75rem;
+
+    
+    position: relative;
+
+}
+.container-cuadros{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding: 0
+;
+}
+.container-cuadros div{
+    padding: 2rem;
+   
+;
+}
+.card{
+    padding: 5rem;
+    display:flex;
+    flex-direction: row;
+}
+.card a{
+    color: red
+}
 
 /**Footer**/
+.container-footer{
+   background-color: #f0f0f0;
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin:0;
+}
+.container-nav-media{
+    background-color: red;
+    display:flex;
+    flex-direction: column;
+}
+
+.media{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display:Flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.media img{
+    margin-left:50%;
+    width: 5rem;
+    margin: 1rem;
+    justify-content: space-between;
+
+}
+.container-links{
+
+    padding-top:10rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 8rem;
+}
+.imagenes{
+    
+    display:flex;
+    justify-content: space-between;
+    margin-top: .5rem;
+    margin-right: 15rem;
+    margin-left: 15rem;
+}
+.imagenes img{
+    width: 40rem;
+}
+
